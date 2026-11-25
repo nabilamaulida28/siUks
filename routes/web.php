@@ -18,16 +18,18 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 
-// Halaman Utama: Redirect berdasarkan status login
+// Halaman utama publik; pengguna yang sudah login langsung ke dashboard.
 Route::get('/', function () {
     if (Auth::check()) {
         $user = Auth::user();
         if ($user->role === 'student') {
             return redirect()->route('student.dashboard');
         }
+
         return redirect()->route('admin.dashboard');
     }
-    return redirect()->route('login');
+
+    return view('welcome');
 });
 
 // Autentikasi
