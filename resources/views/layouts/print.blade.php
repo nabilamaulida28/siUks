@@ -58,10 +58,10 @@
                     <span class="text-[10px] tracking-widest mt-0.5">UKS</span>
                 </div>
                 <div class="flex-1 text-center">
-                    <h2 class="text-sm font-bold tracking-wider text-slate-700 uppercase">PEMERINTAH PROVINSI DAERAH KHUSUS IBUKOTA JAKARTA</h2>
-                    <h1 class="text-xl sm:text-2xl font-black text-slate-950 tracking-tight uppercase">SMK NEGERI CONTOH JAKARTA</h1>
+                    <h2 class="text-sm font-bold tracking-wider text-slate-700 uppercase">PEMERINTAH PROVINSI DAERAH JAWA BARAT</h2>
+                    <h1 class="text-xl sm:text-2xl font-black text-slate-950 tracking-tight uppercase">SMKN 1 CIOMAS</h1>
                     <h3 class="text-sm font-extrabold text-emerald-800 uppercase tracking-widest">UNIT KESEHATAN SEKOLAH (UKS)</h3>
-                    <p class="text-xs text-slate-500 mt-1">Jl. Pendidikan No. 45, Kebayoran Baru, Jakarta Selatan | Telp: (021) 7890123 | Email: uks@smknegeri.sch.id</p>
+                    <p class="text-xs text-slate-500 mt-1">Jl. Raya Laladon, Laladon, Kec. Ciomas, Kabupaten Bogor, Jawa Barat 16610 | Telepon: [0851-6999-9325]</p>
                 </div>
                 <div class="w-20 hidden sm:block"></div>
             </div>

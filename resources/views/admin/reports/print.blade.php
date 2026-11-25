@@ -86,12 +86,12 @@
             <p class="text-slate-600">Mengetahui,</p>
             <p class="font-bold text-slate-900">Kepala Sekolah</p>
             <div class="h-20"></div>
-            <p class="font-bold text-slate-900 underline">Drs. H. Mulyadi, M.M</p>
+            <p class="font-bold text-slate-900 underline">Nani Yulianti M.pd</p>
             <p class="text-xs text-slate-500">NIP. 19680312 199403 1 004</p>
         </div>
 
         <div>
-            <p class="text-slate-600">Jakarta, {{ date('d F Y') }}</p>
+            <p class="text-slate-600">Bogor, {{ date('d F Y') }}</p>
             <p class="font-bold text-slate-900">Koordinator / Petugas UKS</p>
             <div class="h-20"></div>
             <p class="font-bold text-slate-900 underline">{{ auth()->user()->name }}</p>

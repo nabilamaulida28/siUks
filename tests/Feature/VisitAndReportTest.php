@@ -60,6 +60,7 @@ class VisitAndReportTest extends TestCase
         $reportResponse = $this->get(route('admin.reports.index'));
         $reportResponse->assertStatus(200);
         $reportResponse->assertSee('Laporan & Rekapitulasi UKS');
+        $reportResponse->assertDontSee('Export Excel / CSV');
 
         // 5. Download export CSV laporan
         $csvResponse = $this->get(route('admin.reports.export_csv'));
